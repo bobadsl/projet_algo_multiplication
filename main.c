@@ -6,8 +6,14 @@ int main(){
 	/*
 	* programme principal
 	*/
-	int a = 3;
-	int b = 6;
+	int a;
+
+	printf("Donnez une valeur pour a ? ");
+	scanf("%d",&a);
+
+	int b;
+	printf("Donnez une valeur pour b ? ");
+	scanf("%d",&b);
 
 	int res = mult(a,b);
 
